@@ -1,0 +1,12 @@
+
+.CODE
+.ADDR x0000
+
+LABEL1
+    CONST R0, #2
+    ADD R0, R0, R0
+
+
+.DATA
+.ADDR x4000
+.FILL x0001
